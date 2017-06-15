@@ -1,0 +1,66 @@
+{
+  "id": "b4821ed7-70a6-4e17-b81f-1eb93843e859",
+  "timestamp": "2017-06-15T00:42:19.632Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "!C",
+    "action": "",
+    "actionIncomplete": true,
+    "parameters": {
+      "mods": []
+    },
+    "contexts": [
+      {
+        "name": "check-in_dialog_params_mods",
+        "parameters": {
+          "mods": [],
+          "mods.original": ""
+        },
+        "lifespan": 1
+      },
+      {
+        "name": "check-in_dialog_context",
+        "parameters": {
+          "mods": [],
+          "mods.original": ""
+        },
+        "lifespan": 2
+      },
+      {
+        "name": "a216cb31-019f-49a0-a1e8-126e109ac07d_id_dialog_context",
+        "parameters": {
+          "mods": [],
+          "mods.original": ""
+        },
+        "lifespan": 2
+      }
+    ],
+    "metadata": {
+      "intentId": "a216cb31-019f-49a0-a1e8-126e109ac07d",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Check-In"
+    },
+    "fulfillment": {
+      "speech": ">>>Please tell me your Slack username to complete check-in for the week of 6/12/17.",
+      "messages": [
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": ">>>Please tell me your Slack username to complete check-in for the week of 6/12/17."
+        },
+        {
+          "type": 0,
+          "speech": ">>>Please tell me your Slack username to complete check-in for the week of 6/12/17."
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "b1faa8dd-63d8-4ad1-9c18-680e5a12ee04"
+}
